@@ -86,4 +86,8 @@ At the top of `main.py`, change `PASS_MARK`, `LOW_ATTENDANCE_LIMIT`, `LOW_AVERAG
 4. Keep real student-identifying data private. The included sample data is fictional; do not publish personal educational records.
 
 See the project guide for a detailed explanation and presentation notes.
+
+## Publish the dashboard with GitHub Pages
+
+The repository includes a root `index.html` that opens the generated dashboard. After the project is pushed to GitHub, open the repository's **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save. GitHub will show the public Pages URL in that section after deployment finishes. Pages serves the static HTML/CSS report; it does not run the Python analysis. To publish updated data or calculations, regenerate the dashboard with `python main.py` and push the updated files.
 # Student-insight-early-alert-s
